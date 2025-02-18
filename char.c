@@ -7,7 +7,7 @@ int i,k=0,n,j=6;
 char s[100],res[100]="",a[100]="";
 printf("enter the string:");
 
-fgets(s);
+fgets(s,sizeof(s),stdin);
 strcpy(res,"dlestx");
 for(i=0;s[i]!='\0';i++)
 {
