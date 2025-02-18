@@ -61,6 +61,30 @@ int main() {
     printf("Worst Case: O(n^2) - The algorithm always iterates over all elements.\n");
     printf("Average Case: O(n^2) - The same number of operations as the worst case.\n\n");
 
+
+
+
+
+    #OUTPUT IS 
+    Brute Force Analysis of Selection Sort:
+Best Case: O(n^2) - The algorithm always iterates over all elements.
+Worst Case: O(n^2) - The algorithm always iterates over all elements.
+Average Case: O(n^2) - The same number of operations as the worst case.
+
+Sorted 5000 elements in 0.0220 seconds.
+Sorted 10000 elements in 0.0840 seconds.
+Sorted 15000 elements in 0.2050 seconds.
+Sorted 20000 elements in 0.3650 seconds.
+Sorted 25000 elements in 0.5330 seconds.
+
+Selection Sort Time Complexity Analysis
+Number of Elements (n) vs Time Taken (seconds)
+5000 elements: 0.0220 seconds
+10000 elements: 0.0840 seconds
+15000 elements: 0.2050 seconds
+20000 elements: 0.3650 seconds
+25000 elements: 0.5330 seconds
+
     measureSortTimes();
 
     return 0;
