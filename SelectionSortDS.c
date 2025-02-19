@@ -61,6 +61,9 @@ int main() {
     printf("Worst Case: O(n^2) - The algorithm always iterates over all elements.\n");
     printf("Average Case: O(n^2) - The same number of operations as the worst case.\n\n");
 
+    measureSortTimes();
+    return 0;
+}
 
 
 
