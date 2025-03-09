@@ -10,7 +10,9 @@ printf("enter gen");
 fgets(d,sizeof(d),stdin);
 k=strlen(d)-1;
 len=strlen(s);
-p[i]='0';
+strcpy(p,s);
+for(i=len;i<len+k;i++)
+    p[i]='0';
 p[i]='\0';
 printf("msg after appending %d zero bits:",k);
 puts(p);
